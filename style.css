@@ -70,6 +70,28 @@ body {
     box-sizing: border-box;
 }
 
+.sobre-mim {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 425px;
+    position: relative;
+    display: flex;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+.texto1 {
+    width: 50%;
+}
+
+.img-sobre1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
 .tatuagens1 {
     padding-left: 80px;
     padding-right: 80px;
@@ -89,38 +111,17 @@ body {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+    display: inline-flex;
+    align-items: center;  
+}
+.slider2 {
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     box-sizing: border-box;
-    text-align: center;
-    overflow-x: hidden;
-    
-    
-}
-
-.slider:before {
-    background: linear-gradient(to right,rgb(0, 0, 0) 0%,
-    rgba(255,255,255,0) 100%);
-    content: '';
-    height: 100%;
-    position: absolute;
-    width: 15%;
-    z-index:2 ;
-    left: 0px;
-    top: 0px;
-}
-
-
-.slider::after {
-    background: linear-gradient(to right,rgb(0, 0, 0) 0%,
-    rgba(255,255,255,0) 100%);
-    content: '';
-    height: 100%;
-    position: absolute;
-    width: 15%;
-    z-index:2 ;
-    right: 0px;
-    top:0px;
-    transform: rotateZ(180deg);
+    overflow-x: hidden;   
 }
 
 .slide {
